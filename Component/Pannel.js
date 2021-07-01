@@ -10,7 +10,7 @@ import pannel3 from '../public/images/pannel3.png'
 
 const useStyles = makeStyles({
     root: {
-        padding: '70px 0',
+        padding: '70px 0 20px 0',
         backgroundColor: '#F9FAF8'
     },
     grid: {
