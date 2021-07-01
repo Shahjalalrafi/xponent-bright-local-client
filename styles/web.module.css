@@ -1,0 +1,8 @@
+.header {
+  background-image: url("../public/images/header1.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  padding: 300px 0
+}
