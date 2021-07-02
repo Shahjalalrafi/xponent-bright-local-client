@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
+import SanityClient from '../client'
 
 import pannel1 from '../public/images/pannel1.png'
 import pannel2 from '../public/images/pannel2.png'
@@ -48,6 +49,8 @@ const Pannel = () => {
             desc: 'Our dedicated team of local search pros and five-star support staff know what’s up in local SEO and are on hand to help you win.'
         },
     ]
+
+    console.log(pannels)
     return (
         <main className={classes.root}>
             <Container>
